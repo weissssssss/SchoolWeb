@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="[Your School Name] - Empowering students through quality education since [year]">
+  <title>Contact us | Nova Academy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Skip to Content Link (Accessibility) -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="sticky-header">
+    <div class="container header-container">
+      <div class="header-left">
+        <img src="images/logo.png" alt="[Your School Name] Logo" class="logo">
+        <h1 class="sr-only">Nova Academy</h1>
+      </div>
+      
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <section class="hero">
+        <div class="hero-image-container">
+            <img 
+              src="Images/contact.jpg" 
+              alt="School campus" 
+              class="hero-image"
+              loading="lazy"
+            >
+            <div class="hero-overlay"></div>
+        </div>
+          
+        <div class="hero-content container">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you!</p>
+        </div>
+    </section>
+
+    <section class="about-preview">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <p>Reach out for admissions, inquiries, or feedback</p>
+        </div>
+
+        <div class="features-grid" style="margin-bottom: 0;">
+          <div class="feature-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>123 Education Ave<br>City, ST 12345</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>(555) 123-4567</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>info@yourschool.edu</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div style="margin-top: 60px;">
+          <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form" style="max-width: 600px; margin: auto;">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="_replyto" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <p>Empowering students for a brighter future since 1985.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="calendar.html">School Calendar</a></li>
+            <li><a href="lunch-menu.html">Lunch Menu</a></li>
+            <li><a href="transportation.html">Transportation</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <address>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Education Ave, City, ST 12345</p>
+            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@yourschool.edu</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Nova Academy. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

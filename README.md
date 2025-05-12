@@ -1,1 +1,2 @@
 # SchoolWeb
+Basic School Website.
